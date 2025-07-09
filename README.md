@@ -2,5 +2,5 @@
 
 <img src="./src/assets/img/logo.png" alt="logo Fenix">
 
-[Fenix]()
+[Fenix.com](https://leoosilvp.github.io/FENIX/)
 </div>
