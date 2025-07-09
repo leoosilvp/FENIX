@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ligth-color: #f5f5f5;
+    --dark-color: #1e1e1e;
+    --title: 1.5rem;
+    --font: 1.2rem;
+    --font-1: 1rem;
+    --font-2: 0.9rem;
+    --font-3: 0.7rem;
+    --color-font-2: #595959;
+    --border: 10px;
+}
+
+body{
+    font-family: "Fira Code";
+    background: #141414;
+}
+
+#logo h1 a{
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    color: #8f8f8f;
+    font-size: var(--font-1);
+    font-weight: 600;
+    padding: 7px;
+    box-shadow: 0px 0px 0px 1px var(--color-font-2);
+}
+
+#hero{
+    display: flex;
+}
+
+#aside{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    box-shadow: 1px 0px 0px 0px var(--color-font-2);
+}
+
+#profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    height: 80px;
+    box-shadow: 0px 1px 0px 0px var(--color-font-2);
+}
+
+#profile h1 a{
+    font-size: var(--font-1);
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--ligth-color);
+}
+
+#profile img{
+    display: flex;
+    border-radius: 50%;
+    width: 50px;
+}
+
+nav{
+    margin: 30px 25px 0px 25px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+nav ul li a img{
+    display: flex;
+    align-items: center;
+    width: 15px;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    padding: 0px 10px;
+    font-size: var(--font-1);
+    color: var(--color-font-2);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: var(--border);
+}
+
+nav ul li a:hover{
+    color: var(--ligth-color);
+    border: 1px solid var(--ligth-color);
+}
+
+.active{
+    color: var(--ligth-color);
+    border: 1px solid var(--ligth-color);
+}
+
+#library {
+    margin: 30px 25px 0px 25px;
+    text-decoration: none;
+    font-size: var(--font-1);
+}
+
+#library a{
+    font-size: var(--font-1);
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--ligth-color);
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 0px 0px var(--color-font-2);
+}
+
+#nav li{
+    display: flex;
+    list-style: none;
+}
+
+#nav li a{
+    font-size: var(--title);
+    font-weight: 500;
+    color: var(--ligth-color);
+    text-decoration: none;
+}
+
+#search{
+    display: flex;
+    height: 35px;
+}
+
+#search input{
+    padding: 10px;
+    background: #1e1e1e;
+    color: #8f8f8f;
+    border: 1px solid #595959;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#search button{
+    width: 30px;
+    background: var(--dark-color);
+    border: 1px solid #595959;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
