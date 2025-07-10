@@ -177,7 +177,8 @@ nav ul li a:hover{
 #content{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     overflow: auto;
 }
 
