@@ -17,7 +17,7 @@
     --font-2: 0.9rem;
     --font-3: 0.7rem;
     --color-font-2: #595959;
-    --border: 10px;
+    --border: 8px;
     --transition: all 0.5s ease;
     --outline: 1px solid #595959ab;
 }
@@ -106,8 +106,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: var(--ligth-color);
-    border: 1px solid var(--ligth-color);
+    border: 1px solid var(--color-font-2);
 }
 
 .active{
@@ -202,6 +201,7 @@ nav ul li a:hover{
 }
 
 #ctn-banner{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -214,6 +214,7 @@ nav ul li a:hover{
     cursor: pointer;
     border-radius: var(--border);
     transition: var(--transition);
+    box-shadow: 0px 0px 10px 3px #000000b3;
 }
 
 .carousel:hover{
@@ -297,12 +298,13 @@ nav ul li a:hover{
     padding: 10px;
     background: #1414147c;
     font-size: var(--font-1);
-    color: var(--ligth-color);
+    color: #808080;
     font-weight: 600;
     border-radius: var(--border);
-    border: 1px solid var(--ligth-color);
+    border: 1px solid var(--color-font-2);
     cursor: pointer;
     transition: var(--transition);
+    box-shadow:  0px 0px 10px 3px #00000065;
 }
 
 #title h2:hover{
@@ -355,7 +357,7 @@ nav ul li a:hover{
     background-image: url(../assets/img/img-user/banner-2.gif);
     background-size:cover;
     background-repeat: no-repeat;
-    box-shadow: 0px 0px 10px 3px #0000007f;
+    box-shadow: 0px 0px 10px 3px #000000b3;
     border: 1px solid #595959;
 }
 
@@ -376,9 +378,11 @@ nav ul li a:hover{
     display: flex;
     width: 130px;
     border-radius: 50%;
+    box-shadow:  0px 0px 10px 3px #00000065;
 }
 
 #user h1{
+    text-decoration: underline;
     color: var(--ligth-color);
     font-size: var(--title);
     font-weight: 500;
@@ -404,14 +408,14 @@ nav ul li a:hover{
     height: 30px;
     border: none;
     border-radius: var(--border);
-    background: #5151517e;
-    backdrop-filter: blur(4px);
+    background: #65656565;
+    backdrop-filter: blur(5px);
     font-size: var(--font-2);
     font-weight: 500;
     color: var(--ligth-color);
     cursor: pointer;
     transition: var(--transition);
-    box-shadow: 0px 0px 10px 5px #00000049;
+    box-shadow:  0px 0px 10px 3px #00000065;
 }
 
 #btn-edit:hover{
@@ -432,11 +436,11 @@ nav ul li a:hover{
     height: 40px;
     border: none;
     border-radius: var(--border);
-    background: #141414a1;
-    backdrop-filter: blur(4px);
+    background: #000000a4;
+    backdrop-filter: blur(5px);
     cursor: pointer;
     transition: var(--transition);
-    box-shadow: 0px 0px 10px 5px #00000049;
+    box-shadow: 0px 0px 10px 3px #00000065;
 }
 
 #btn-share:hover{
@@ -460,11 +464,11 @@ nav ul li a:hover{
     color: var(--ligth-color);
     font-size: var(--font);
     font-weight: 600;
-    background: #ff0000a1;
+    background: #ff0000a4;
     backdrop-filter: blur(4px);
     cursor: pointer;
     transition: var(--transition);
-    box-shadow: 0px 0px 10px 5px #00000049;
+    box-shadow: 0px 0px 10px 3px #00000065;
 }
 
 #btn-exit:hover{
@@ -476,6 +480,14 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     padding: 60px;
+}
+
+#my-library #title{
+    padding: 0px;
+}
+
+#my-library #title h1{
+    width: 100%;
 }
 
 #ctn-lib{
@@ -499,7 +511,7 @@ nav ul li a:hover{
     border: var(--outline);
     border-radius: var(--border);
     transition: var(--transition);
-    box-shadow: 0px 0px 15px 2px #000000b3;
+    box-shadow:  0px 0px 10px 3px #00000065;
     background: #1e1e1eb2;
     backdrop-filter: blur(3px);
 }
@@ -558,7 +570,8 @@ nav ul li a:hover{
 }
 
 #ctn-card-catolgue{
-    background: #1e1e1eb9;
+    background: #1e1e1e65;
+    backdrop-filter: blur(10px);
     border: var(--outline);
     border-radius: var(--border);
 }
@@ -567,9 +580,11 @@ nav ul li a:hover{
     margin: 20px;
     display: flex;
     padding: 10px;
-    background: #282828b9;
+    background: #1e1e1e2e;
+    backdrop-filter: blur(5px);
     border: var(--outline);
     border-radius: var(--border);
+    box-shadow:  0px 0px 10px 3px #00000065;
 }
 
 .card-catalogue img{
@@ -693,7 +708,7 @@ footer{
     height: 30px;
     padding: 0px 20px;
     background: #141414;
-    color: var(--ligth-color);
+    color: #808080;
     box-shadow: 0px 0px 0px 1px var(--color-font-2);
 }
 
