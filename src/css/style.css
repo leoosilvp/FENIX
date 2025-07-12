@@ -625,10 +625,13 @@ nav ul li a:hover{
     margin-bottom: 140px;
     padding: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #ctn-card-catolgue{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
     background: #1e1e1e65;
     backdrop-filter: blur(10px);
     border: var(--outline);
@@ -655,6 +658,7 @@ nav ul li a:hover{
 
 .info-card-catalogue{
     display: flex;
+    width: 100%;
     flex-direction: column;
     padding: 0px 15px;
 }
