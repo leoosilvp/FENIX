@@ -545,7 +545,137 @@ nav ul li a:hover{
 }
 
 
+/* catalogue */
 
+#content-catalogue{
+    margin-bottom: 140px;
+    padding: 30px;
+    display: flex;
+}
+
+#ctn-card-catolgue{
+    background: #1e1e1eb9;
+    border: var(--outline);
+    border-radius: var(--border);
+}
+
+.card-catalogue{
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+    background: #282828b9;
+    border: var(--outline);
+    border-radius: var(--border);
+}
+
+.card-catalogue img{
+    display: flex;
+    width: 120px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.info-card-catalogue{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+
+.info-card-catalogue h1{
+    font-size: var(--title-1);
+    font-weight: 500;
+    color: var(--ligth-color);
+}
+
+.info-card-catalogue h2{
+    font-size: var(--font-1);
+    font-weight: 500;
+    color: #b6b6b6;
+}
+
+.class{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.class h2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-3);
+    padding: 5px;
+    height: 20px;
+    background: #404040b5;
+    border: var(--outline);
+    border-radius: var(--border);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.class h2:hover{
+    transform: scale(1.03);
+}
+
+.btn-buy{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.btn-buy h2{
+    font-size: var(--font-2);
+    font-weight: 500;
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.btn-buy button{
+    font-size: var(--font-2);
+    font-weight: 600;
+    color: var(--ligth-color);
+    background: #21511a;
+    display: flex;
+    width: 70px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btn-buy button:hover{
+    background: #2f7125;
+}
+
+#ctn-filter-catalogue{
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#filter-catalogue{
+    padding: 10px;
+    width: 200px;
+    height: 900px;
+    background: #1e1e1eb9;
+    border: var(--outline);
+    border-radius: var(--border);
+}
+
+#filter-catalogue h1{
+    font-size: var(--font-3);
+    font-weight: 600;
+    color: var(--ligth-color);
+}
 
 
 
